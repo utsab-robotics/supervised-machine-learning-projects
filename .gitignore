@@ -1,0 +1,55 @@
+# Python virtual environments
+**/.venv/
+**/venv/
+**/env/
+
+# Python cache
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Trained models and checkpoints
+*.joblib
+*.pkl
+*.pickle
+*.h5
+*.keras
+*.pt
+*.pth
+*.onnx
+
+# Datasets
+**/data/raw/*
+**/data/processed/*
+!**/data/raw/.gitkeep
+!**/data/processed/.gitkeep
+
+# Secrets
+.env
+.env.*
+!.env.example
+secrets.json
+credentials.json
+token.json
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Test and coverage output
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Logs and temporary files
+*.log
+logs/
+tmp/
+temp/
